@@ -1,0 +1,109 @@
+h1,
+h2,
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #ddd;
+}
+
+h2,
+h3 {
+  font-size: 22px;
+}
+
+/* main */
+
+#main-container {
+  padding-top: 130px;
+  min-height: calc(100vh - 70px);
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+/* portfolio page */
+
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+@media screen and (max-width: 980px)
+{
+  #masthead
+  {
+    border-bottom: 3px grey solid;
+    height:121px;
+  }
+
+  #logo
+  {
+    background-color: lightseagreen;
+    text-align: center;
+    margin-left: 50px;
+    float: left;
+    padding:10px;
+    color:white;
+    text-decoration: none;
+    height: 101px;
+    font-size: 36px;
+    position: relative;
+  }
+
+  .adInfo
+  {
+    float:right;
+    padding:10px;
+    text-decoration: none;
+    margin-top: 40px;
+    color: grey;
+  }
+}
+
+@media screen and (max-width: 768px)
+{
+  
+}
+
+@media screen and (max-width: 640px)
+{
+  
+}
