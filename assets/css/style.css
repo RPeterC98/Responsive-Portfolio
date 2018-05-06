@@ -18,6 +18,11 @@ h3 {
   font-size: 22px;
 }
 
+body
+{
+  background-image: url("../images/concrete_seamless.jpg")
+}
+
 /* main */
 
 #main-container {
@@ -66,12 +71,21 @@ h3 {
   border-bottom: 0;
 }
 
+#name,
+#email,
+{
+  margin-top: 25px;
+  
+}
+
 @media screen and (max-width: 980px)
 {
+
   #masthead
   {
     border-bottom: 3px grey solid;
-    height:121px;
+    height:70px;
+    background-color: white;
   }
 
   #logo
@@ -80,10 +94,84 @@ h3 {
     text-align: center;
     margin-left: 50px;
     float: left;
-    padding:10px;
+    padding:14.5px;
     color:white;
     text-decoration: none;
-    height: 101px;
+    height: 41px;
+    font-size: 24px;
+    position: relative;
+  }
+
+  .adInfo
+  {
+    float:right;
+    padding:5px;
+    text-decoration: none;
+    margin-top: 20px;
+    color: grey;
+    font-size: 16px;
+    margin-right: 20px;
+  }
+
+  #main-container
+  {
+    margin-left:50px;
+    margin-top: 0px;
+    margin-right: 300px;
+    padding-top: 30px;
+  }
+
+  .auth-image
+  {
+    height: 250px;
+    width: 300px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 15px;
+  }
+
+  p
+  {
+    margin-right: 50px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: -10px;
+    color: grey;
+  }
+
+  footer
+  {
+    border-top: 5px lightseagreen solid;
+    background-color: rgb(63, 63, 63);
+    text-align: center;
+    height: 50px;
+    font-size: 16px;
+    position: relative;
+    color:lightgrey;
+    padding-top: 20px;
+  }
+
+}
+
+@media screen and (max-width: 768px)
+{
+  #masthead
+  {
+    border-bottom: 3px grey solid;
+    height:121px;
+    background-color: white;
+  }
+
+  #logo
+  {
+    background-color: lightseagreen;
+    text-align: center;
+    margin-left: 50px;
+    float: left;
+    padding:40px;
+    color:white;
+    text-decoration: none;
+    height: 41px;
     font-size: 36px;
     position: relative;
   }
@@ -95,15 +183,117 @@ h3 {
     text-decoration: none;
     margin-top: 40px;
     color: grey;
+    font-size: 18px;
+    margin-right: 20px;
   }
-}
 
-@media screen and (max-width: 768px)
-{
+  #main-container
+  {
+    margin-left:50px;
+    margin-top: 0px;
+    margin-right: 150px;
+    padding-top: 30px;
+  }
+
+  .auth-image
+  {
+    height: 250px;
+    width: 300px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 15px;
+  }
+
+  p
+  {
+    margin-right: 50px;
+    font-size: 20px;
+    line-height: 30px;
+    color: grey;
+  }
+
+  footer
+  {
+    border-top: 5px lightseagreen solid;
+    background-color: rgb(63, 63, 63);
+    text-align: center;
+    height: 50px;
+    font-size: 16px;
+    position: relative;
+    color:lightgrey;
+    padding-top: 35px;
+  }
   
 }
 
 @media screen and (max-width: 640px)
 {
-  
+  #masthead
+  {
+    border-bottom: 2px lightgrey solid;
+    height:200px;
+    background-color: white;
+  }
+
+  #logo
+  {
+    position: relative;
+    background-color: lightseagreen;
+    text-align: center;
+    margin-left: 30%;
+    width:100%;
+    padding-bottom: 20px;
+    color:white;
+    text-decoration: none;
+    float:none;
+    font-size: 36px;
+  }
+
+  .adInfo
+  {
+    padding:10px;
+    text-decoration: none;
+    margin-top: 110px;
+    color: grey;
+    font-size: 18px;
+    margin-right: 90px;
+    background-color: white;
+  }
+
+  #main-container
+  {
+    margin-left:50px;
+    margin-top: 0px;
+    margin-right: 150px;
+    padding-top: 30px;
+  }
+
+  .auth-image
+  {
+    height: 300px;
+    width: 420px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 0px;
+  }
+
+  p
+  {
+    margin-right: 50px;
+    font-size: 20px;
+    line-height: 30px;
+    color: grey;
+  }
+
+  footer
+  {
+    border-top: 5px lightseagreen solid;
+    background-color: rgb(63, 63, 63);
+    text-align: center;
+    height: 50px;
+    font-size: 16px;
+    color:lightgrey;
+    padding-top: 35px;
+    margin-top: 100px;
+  }
 }
